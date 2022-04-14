@@ -1,0 +1,25 @@
+netcdf bias {
+dimensions:
+	bias_coefficients = 1 ;
+	bias_coeff_errors = 1 ;
+	npredictors = 1 ;
+	nchannels = 1 ;
+variables:
+	double bias_coefficients(bias_coefficients) ;
+		bias_coefficients:units = "Aerosol optical depth" ;
+		bias_coefficients:long_name = "bias_coefficients" ;
+	double bias_coeff_errors(bias_coeff_errors) ;
+		bias_coeff_errors:units = "Aerosol optical depth" ;
+		bias_coeff_errors:long_name = "bias_coeff_errors" ;
+	string predictors(npredictors) ;
+	int64 channels(nchannels) ;
+data:
+
+ bias_coefficients = -0.0163 ;
+
+ bias_coeff_errors = 0.0863 ;
+
+ predictors = "constant" ;
+
+ channels = 4 ;
+}

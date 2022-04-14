@@ -1,0 +1,3 @@
+This repository contains python code that writes out staticB (correlations and standard deviation) in format used by BUMP which can be read in by fv3jedi_var.x.   Initial files simply read in a BUMP output file and write out in the same format. Future codes will get the statistics from lagged forecasts using the NMC method.
+
+

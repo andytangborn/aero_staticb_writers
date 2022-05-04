@@ -24,7 +24,7 @@ parser.add_argument(
     type=str, required=True)
 parser.add_argument(
     '-y', '--ydim',
-    help="y-dimension",
+    help="x-dimension",
     type=str, required=True)
 parser.add_argument(
     '-z', '--zdim',
